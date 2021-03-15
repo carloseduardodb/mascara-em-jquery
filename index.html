@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascaras</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h2>Máscaras</h2>
+        <label for="">Número:</label>
+        <input type="" id="number" name="number" placeholder="00 0000 0000">
+        <label for="">CPF:</label>
+        <input id="cpf" name="cpf" placeholder="000.000.000-00">
+    </form>
+</body>
+</html>
+
+<script>
+   $(document).ready(function () { 
+        var $numero = $("#number");
+        var $cpf = $("#cpf");
+        $numero.mask('(00) 00000 0000', {reverse: true});
+        $cpf.mask('000.000.000-00', {reverse: false});
+    });
+</script>

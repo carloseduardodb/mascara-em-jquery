@@ -1,0 +1,50 @@
+$form-back: linear-gradient(180deg, #f9f3ee 0, #f8f3ee 6.25%, #f7f4ee 12.5%, #f7f4ee 18.75%, #f6f4ee 25%, #f5f4ee 31.25%, #f4f5ee 37.5%, #f3f5ef 43.75%, #f2f5ef 50%, #f1f5f0 56.25%, #f0f5f0 62.5%, #eff6f1 68.75%, #eff6f2 75%, #eef6f2 81.25%, #eef6f3 87.5%, #edf6f4 93.75%, #edf6f5 100%);
+$body-back: linear-gradient(180deg, #ffff72 0, #ffff73 12.5%, #e6ff75 25%, #caff77 37.5%, #adf779 50%, #92e97b 62.5%, #78dd7d 75%, #5fd27f 87.5%, #46c883 100%);
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: $body-back;
+}
+
+form{
+    background: $form-back;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    h2{
+        text-align: center;
+        color: rgb(4, 51, 73);
+        font-weight: bolder;
+        font-size: 20pt;
+    }
+    
+    input{
+        font-size: 14pt;
+        background-color: rgba(0, 0, 17, 0);
+        border: none;
+        border-bottom: 5px solid rgb(4, 51, 73);
+        &:focus{
+            border-bottom: 5px solid#ffff72;
+        }
+    }
+}
+
+form label{
+    font-size: 18pt;
+    margin: 20px 0;
+    color:  rgb(4, 51, 73);
+}

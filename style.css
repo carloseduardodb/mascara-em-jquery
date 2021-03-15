@@ -1,0 +1,67 @@
+textarea:focus, input:focus, select:focus {
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+}
+
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffff72), color-stop(12.5%, #ffff73), color-stop(25%, #e6ff75), color-stop(37.5%, #caff77), color-stop(50%, #adf779), color-stop(62.5%, #92e97b), color-stop(75%, #78dd7d), color-stop(87.5%, #5fd27f), to(#46c883));
+  background: linear-gradient(180deg, #ffff72 0, #ffff73 12.5%, #e6ff75 25%, #caff77 37.5%, #adf779 50%, #92e97b 62.5%, #78dd7d 75%, #5fd27f 87.5%, #46c883 100%);
+}
+
+form {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #f9f3ee), color-stop(6.25%, #f8f3ee), color-stop(12.5%, #f7f4ee), color-stop(18.75%, #f7f4ee), color-stop(25%, #f6f4ee), color-stop(31.25%, #f5f4ee), color-stop(37.5%, #f4f5ee), color-stop(43.75%, #f3f5ef), color-stop(50%, #f2f5ef), color-stop(56.25%, #f1f5f0), color-stop(62.5%, #f0f5f0), color-stop(68.75%, #eff6f1), color-stop(75%, #eff6f2), color-stop(81.25%, #eef6f2), color-stop(87.5%, #eef6f3), color-stop(93.75%, #edf6f4), to(#edf6f5));
+  background: linear-gradient(180deg, #f9f3ee 0, #f8f3ee 6.25%, #f7f4ee 12.5%, #f7f4ee 18.75%, #f6f4ee 25%, #f5f4ee 31.25%, #f4f5ee 37.5%, #f3f5ef 43.75%, #f2f5ef 50%, #f1f5f0 56.25%, #f0f5f0 62.5%, #eff6f1 68.75%, #eff6f2 75%, #eef6f2 81.25%, #eef6f3 87.5%, #edf6f4 93.75%, #edf6f5 100%);
+  width: 500px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px;
+}
+
+form h2 {
+  text-align: center;
+  color: #043349;
+  font-weight: bolder;
+  font-size: 20pt;
+}
+
+form input {
+  font-size: 14pt;
+  background-color: rgba(0, 0, 17, 0);
+  border: none;
+  border-bottom: 5px solid #043349;
+}
+
+form input:focus {
+  border-bottom: 5px solid #ffff72;
+}
+
+form label {
+  font-size: 18pt;
+  margin: 20px 0;
+  color: #043349;
+}
+/*# sourceMappingURL=style.css.map */
